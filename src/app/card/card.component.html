@@ -1,7 +1,11 @@
 <div class="card">
-    <img class="image" [src]="dataEntrante?.img" alt="">
+    <!-- <img class="image" [src]="dataEntrante?.img" alt="">  DE ESTA MANERA SIN LA API -->
+     <img class="image" [src]="dataEntrante?.image" alt=""> <!-- DE ESTA MANERA CON LA API -->
     <div class="wrapper-text">
         <div class="title">{{dataEntrante?.title}}</div>
         <div class="sub-title">{{dataEntrante?.subtitle}}</div>
+    </div>
+    <div>
+        <button class="favorite" (click)="agregarFavorito()">Añadir a favorito</button>
     </div>
 </div>
