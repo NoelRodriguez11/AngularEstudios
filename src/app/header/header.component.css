@@ -23,6 +23,6 @@
 .menu li{
     cursor: pointer;
     font-weight: 600;
-   padding: .5rem 1rem;
-   text-align: center;
+    padding: .5rem 1rem;
+    text-align: right;
 }
