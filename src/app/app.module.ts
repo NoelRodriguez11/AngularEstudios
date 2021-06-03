@@ -10,6 +10,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { PostDetailComponent } from './post-detail/post-detail.component';
 import { HomeComponent } from './home/home.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ListViewsComponent } from './list-views/list-views.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     HeaderComponent,
     CardComponent,
     PostDetailComponent,
-    HomeComponent
+    HomeComponent,
+    ListViewsComponent
   ],
   imports: [
     BrowserModule,

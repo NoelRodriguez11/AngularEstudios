@@ -1,3 +1,4 @@
+import { ListViewsComponent } from './list-views/list-views.component';
 import { HomeComponent } from './home/home.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
@@ -11,6 +12,10 @@ const routes: Routes = [
   {
     path:'post/:variable',
     component:PostDetailComponent
+  },
+  {
+    path:'list-videos',
+    component:ListViewsComponent
   }
 ];
 
